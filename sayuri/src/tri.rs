@@ -13,4 +13,5 @@ macro_rules! _internal_tri {
 }
 
 /// Poor man's try {} block
+#[doc(inline)]
 pub use _internal_tri as tri;
