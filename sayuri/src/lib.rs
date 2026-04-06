@@ -1,5 +1,8 @@
+#![cfg_attr(not(feature = "std"), no_std)]
+
 pub mod convert;
 pub mod sync;
+#[cfg(feature = "std")]
 pub mod time;
 mod tri;
 
